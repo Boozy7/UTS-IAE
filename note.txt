@@ -1,0 +1,64 @@
+Nama Kelompok:
+1. M. Wildan Leroidin El-Hadiq - 102062430007
+2. Azizah Fitria Wibisono - 102062400142
+3. Gita Naisya Wardani - 102062400034
+4. Savira Desti Erinanda - 102062430015
+
+Judul Project:
+KantinConnect - Sistem Pemesanan Kantin Kampus Berbasis Service-to-Service Communication
+
+Deskripsi Singkat:
+KantinConnect adalah sistem sederhana untuk pemesanan makanan di kantin kampus. Project ini dibuat dengan konsep service-to-service communication, di mana setiap service berjalan sendiri-sendiri dan saling berkomunikasi secara langsung menggunakan HTTP request dengan format JSON.
+
+Pada sistem ini terdapat tiga service, yaitu UserService, MenuService, dan OrderService. UserService digunakan untuk menyediakan data user, MenuService digunakan untuk menyediakan data menu dan stok, sedangkan OrderService digunakan untuk membuat dan menyimpan data pesanan. Saat order dibuat, OrderService akan mengambil data user dari UserService dan data menu dari MenuService, lalu meminta MenuService untuk mengurangi stok menu.
+
+Daftar Service:
+1. UserService
+   Teknologi: Laravel
+   Port: 8001
+   Peran:
+   - Provider data user
+   - Consumer histori pesanan user dari OrderService
+
+2. MenuService
+   Teknologi: CodeIgniter 4
+   Port: 8002
+   Peran:
+   - Provider data menu dan stok
+   - Consumer histori pesanan menu dari OrderService
+
+3. OrderService
+   Teknologi: Node.js Express
+   Port: 8003
+   Peran:
+   - Provider data transaksi/order
+   - Consumer data user dari UserService
+   - Consumer data menu dari MenuService
+
+Alur Komunikasi:
+1. Client mengirim request pembuatan pesanan ke OrderService.
+2. OrderService mengambil data user dari UserService.
+3. OrderService mengambil data menu dari MenuService.
+4. OrderService mengecek stok menu.
+5. OrderService meminta MenuService untuk mengurangi stok.
+6. OrderService menyimpan data order.
+7. UserService bisa mengambil histori pesanan user dari OrderService.
+8. MenuService bisa mengambil histori pesanan menu dari OrderService.
+
+Teknologi yang Digunakan:
+- Laravel
+- CodeIgniter 4
+- Node.js Express
+- REST API
+- HTTP Request
+- JSON
+- Postman
+
+Link Repository Github:
+[isi link repository GitHub]
+
+Link Postman Documentation:
+[isi link Postman Documentation]
+
+Link Video Demo:
+[isi link video demo]

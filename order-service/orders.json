@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "name": "Tiffany",
+      "nim": "1206240001"
+    },
+    "menu": {
+      "id": 1,
+      "name": "Nasi Ayam Geprek",
+      "price": 15000
+    },
+    "quantity": 2,
+    "totalPrice": 30000,
+    "notes": "Pedas sedang",
+    "status": "CREATED",
+    "createdAt": "2026-04-29T07:28:00.636Z"
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 1,
+      "name": "Tiffany",
+      "nim": "1206240001"
+    },
+    "menu": {
+      "id": 1,
+      "name": "Nasi Ayam Geprek",
+      "price": 15000
+    },
+    "quantity": 2,
+    "totalPrice": 30000,
+    "notes": "Pedas sedang",
+    "status": "CREATED",
+    "createdAt": "2026-04-29T07:40:51.046Z"
+  },
+  {
+    "id": 3,
+    "user": {
+      "id": 2,
+      "name": "Budi",
+      "nim": "1206240002"
+    },
+    "menu": {
+      "id": 3,
+      "name": "Mie Goreng Telur",
+      "price": 12000
+    },
+    "quantity": 1,
+    "totalPrice": 12000,
+    "notes": "Tidak pedas",
+    "status": "CREATED",
+    "createdAt": "2026-04-29T07:44:39.141Z"
+  },
+  {
+    "id": 4,
+    "user": {
+      "id": 3,
+      "name": "Alya",
+      "nim": "1206240003"
+    },
+    "menu": {
+      "id": 3,
+      "name": "Mie Goreng Telur",
+      "price": 12000
+    },
+    "quantity": 1,
+    "totalPrice": 12000,
+    "notes": "Tidak pedas",
+    "status": "CREATED",
+    "createdAt": "2026-04-29T08:07:40.243Z"
+  },
+  {
+    "id": 5,
+    "user": {
+      "id": 3,
+      "name": "Alya",
+      "nim": "1206240003"
+    },
+    "menu": {
+      "id": 3,
+      "name": "Mie Goreng Telur",
+      "price": 12000
+    },
+    "quantity": 1,
+    "totalPrice": 12000,
+    "notes": "Tidak pedas",
+    "status": "CREATED",
+    "createdAt": "2026-05-04T08:29:06.822Z"
+  }
+]

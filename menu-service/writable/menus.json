@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Nasi Ayam Geprek",
+        "category": "Makanan",
+        "price": 15000,
+        "stock": 14
+    },
+    {
+        "id": 2,
+        "name": "Es Teh Manis",
+        "category": "Minuman",
+        "price": 5000,
+        "stock": 30
+    },
+    {
+        "id": 3,
+        "name": "Mie Goreng Telur",
+        "category": "Makanan",
+        "price": 12000,
+        "stock": 12
+    }
+]
